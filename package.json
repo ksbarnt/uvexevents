@@ -1,0 +1,9 @@
+{
+    "urls": [
+        ["uvexevents.py", "github:ksbarnt/uvexevents/uvexevents.py"]
+    ],
+    "deps": [
+        ["urequests", "latest"]
+    ],
+    "version": "0.1.0"
+}
