@@ -1,7 +1,7 @@
 # uvexevents
 
 A dependency-light MicroPython client for the [Public VEX Events API v2](https://events.vex.com/api/v2/swagger.yml)
-(the API that backs [robotevents.com](https://www.robotevents.com)). Built for
+(the API that backs [events.vex.com](https://events.vex.com)). Built for
 running on microcontrollers (ESP32, ESP8266, Raspberry Pi Pico W, etc.) as
 well as the MicroPython Unix port, and tested against real
 [MicroPython](https://micropython.org) (v1.28).
@@ -21,7 +21,7 @@ no package directory required.
   (install on-device with `mip.install("urequests")`, or `mpremote mip install urequests`),
   or a port that already provides a `requests` module. `uvexevents` picks
   whichever is importable at runtime.
-- A VEX Events API bearer token. Generate one from your robotevents.com
+- A VEX Events API bearer token. Generate one from your events.vex.com
   account (Developer / API settings) - it's a JWT, passed as
   `Authorization: Bearer <token>` on every request.
 
